@@ -129,7 +129,7 @@ class RecipeCard extends HTMLElement {
     //           do not nest an <article> inside another <article>). You should use Template
     //           literals (tempalte strings) and element.innerHTML for this.
   
-    article.innerHTML = `<img src=${data.imgSrc} alt="Recipe Title">
+    article.innerHTML = `<img src=${data.imgSrc} alt=${data.imgAlt}>
                         <p class="title">
                         <a href=${data.titleLnk}>${data.titleTxt}</a>
                         </p>
