@@ -75,7 +75,6 @@ function initFormHandler() {
   let f = document.getElementById('new-recipe');
   // B3. TODO - Add an event listener for the 'submit' event, which fires when the
   //            submit button is clicked
-  //let sub = document.querySelector("[type='submit']");
 
   f.addEventListener('submit', (event) => {
     console.log('form submitted');
